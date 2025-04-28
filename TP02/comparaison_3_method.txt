@@ -1,0 +1,78 @@
+1/____________________ COMPERSION :
+
+
+*************/PROS :
+
+- Réduire la taille des données .
+- Réduisez le temps de téléchargement depuis le net .
+
+
+*************/CONV :
+
+- augmentation du temps de lecteur et d'écriture car à chaque fois il est décompressé lors de la lecteure et compressé lors de la sauvgarde , ce rende plus lent .
+
+
+
+*************/CAS D'UTILASION :
+
+- lors de la sauvgarde ou transfert de données pour économiser de l'espace .
+- lorseque la taille du fichier est importante et que vous devez le partage et le stocker .
+
+
+§§§§§§§§§§§§§§§ donc ,la meilleure utilization est de réduire la tailee du fichier .
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+2/____________________ CHUNKSIZE :
+
+
+*************/PROS :
+
+- cela réduit la consommation de RAM , car au lieu de télécharger fichier entiere , seule une petite partie est lue .
+- améloire les perfermonces lors du traitment de fichier volumineux .
+
+
+*************/CONV :
+
+- possibilité de perte de performances si CHUNKSIZE est trop grande ou trop petite .
+- la complexité du code nécessite l'utilisation d'une boucle for pour traiter les donnés par lots .
+
+
+*************/CAS D'UTILASION :
+
+- lorsque vous devez traiter des données par lots sans consommer toute la mémoire . .
+
+
+§§§§§§§§§§§§§§§§§§ donc , analyser les données efficacement .
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+3/____________________ DASK :
+
+
+*************/PROS :
+
+- permet la gestion de données plus volumineuses que la mémoire disponible .
+- évite de consommer toute la RAM , ce qui protége le systéme contre lrs plantages lors du traitment de données volumineuses , il charge les données sur le disque plutot que sur la mémoire.
+
+
+
+*************/CONV :
+
+- perfermonces plus lentes par rapport à la RAM en lectute et en écriture .
+- il faut suffisament d'espace disque , surtout si le fichier est trés volumineux .
+
+
+*************/CAS D'UTILASION :
+
+- lorsqu'il s'agit de données trés volumineuses qui ne peuvent pas etre chargées en mémoire en une suele fois .
+- lorsque la RAM est inferieute à 8 GB et que vous devez travailler avec des données volumineuses .
+
+§§§§§§§§§§§§§§§§§§§§§§§§§ donc , si vous n'avez pas assez se RAM .
+
+
+
+
